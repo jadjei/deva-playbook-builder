@@ -1,0 +1,45 @@
+Developer Accelerator Academy Playbook Builder
+Copyright 2026 Fluid7 Ltd and Edify Systems Limited.
+
+Developed with funding from Project Catalyst, Fund 11, project 1100048.
+
+WHAT IS LICENSED, AND HOW
+=========================
+
+1. CODE  -  Apache License 2.0  (see LICENSE)
+
+   All source code in this repository: the Playbook Builder web app, its
+   styles, its tests and its configuration.
+
+2. ASSIGNMENT CONTENT  -  proprietary, all rights reserved, NOT included
+
+   The Developer Accelerator Academy's assignment briefs (their titles,
+   introductions, prompt labels, hints and table row and column labels) are
+   the intellectual property of Edify Systems Limited, trading as Edify
+   Colabs. They are not in this repository, not open source and not licensed
+   here.
+
+   lib/playbook/assignments.generated.ts ships placeholder text in their
+   place. It keeps the course's structure: the nine module numbers and
+   titles, the assignment codes, and the prompt, row and column ids the app
+   stores answers under. Module titles are published on chain as part of the
+   course on Andamio.
+
+THIRD-PARTY MATERIAL
+====================
+
+The Andamio platform, to which learners submit their assignments, is not
+covered by any licence in this repository and remains subject to Andamio's
+own terms.
+
+Dependencies retain their own licences.
+
+TRADE MARKS
+===========
+
+No licence in this repository grants any right to use the Developer
+Accelerator Academy, Fluid7 or Edify names or logos. The Apache License 2.0
+expressly excludes trade mark rights.
+
+You may fork and run this software. Please do not represent the result as
+the Developer Accelerator Academy.

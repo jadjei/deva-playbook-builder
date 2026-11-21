@@ -1,0 +1,97 @@
+/* Layout for the page around the builder. Class names match what app/playbook/page.tsx uses. */
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--ink);
+  border-bottom: 1px solid var(--rule);
+  padding: 18px 0;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 56px 0 64px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.heroRule {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule-strong);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.brandLabel {
+  color: var(--text);
+}
+
+.label {
+  color: var(--muted);
+}
+
+.heroCopy {
+  max-width: 46rem;
+}
+
+.heroTitle {
+  font-size: clamp(32px, 5vw, 52px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.lede {
+  margin-top: 20px;
+  font-size: 18px;
+  color: var(--text-2);
+  max-width: 60ch;
+}
+
+.section {
+  padding: 56px 0;
+}
+
+.paper {
+  background: var(--paper);
+  color: var(--paper-text);
+}
+
+.sectionHead {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.sectionNumber {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+
+.sectionTitle {
+  font-size: 28px;
+  letter-spacing: -0.01em;
+}
+
+.footer {
+  border-top: 1px solid var(--rule);
+  padding: 28px 0 40px;
+  font-size: 14px;
+  color: var(--muted);
+}

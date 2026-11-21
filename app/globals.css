@@ -1,0 +1,72 @@
+/* Neutral tokens for the builder. The names are the ones the playbook styles expect;
+   the values are plain greys with a single blue accent. System fonts only. */
+:root {
+  --ink: #111418;
+  --ink-alt: #15191e;
+  --graphite: #1c2127;
+  --rule: #2a3038;
+  --rule-card: #303741;
+  --rule-strong: #46505c;
+  --text: #eef1f4;
+  --text-2: #c3c9d1;
+  --muted: #8a939e;
+  --gold: #7fb2ff;
+  --gold-hover: #a3c8ff;
+  --gold-deep: #6f9ee6;
+  --on-gold: #0b1626;
+  --verdigris-text: #7cc4a4;
+
+  --paper: #f4f5f7;
+  --paper-rule: #d8dce1;
+  --paper-text: #16191d;
+  --paper-text-2: #3b4148;
+  --paper-gold-text: #1f5bb5;
+
+  --font-display-stack: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-body-stack: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --measure: 1180px;
+  --gutter: 40px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--font-body-stack);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+h1,
+h2,
+h3,
+p,
+ol {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --gutter: 16px;
+  }
+}
